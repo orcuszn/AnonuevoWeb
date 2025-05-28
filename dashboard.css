@@ -1,0 +1,64 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Layout */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Header Styling */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Dashboard Layout */
+.dashboard {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #1d1d1d;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Box Styling */
+.box {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    font-weight: bold;
+}
